@@ -34,6 +34,11 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
 
+
+                        <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
+
+
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -47,6 +52,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
+
+
                             @endif
                         @else
                             <li class="nav-item dropdown">
