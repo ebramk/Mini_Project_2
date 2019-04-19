@@ -6,6 +6,13 @@
             <label for="exampleFormControlInput1">Full Name:</label>
             <input type="name" name="name" class="form-control" id="name" placeholder="Your Name">
         </div>
+        <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" class="form-control" aria-describedby="email" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+
+
 
 
         <div class="form-group">
