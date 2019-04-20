@@ -14,7 +14,7 @@ class CheckCarModelTypeTest extends TestCase
      */
     public function testCarModelType()
     {
-        //just creating a new car or we can get from database too
+
         factory(Cars::class)->create();
         $car =  Cars::first();
         $this->assertInternalType("string", $car->model);
